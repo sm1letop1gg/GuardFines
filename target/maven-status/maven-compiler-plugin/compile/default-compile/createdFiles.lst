@@ -1,0 +1,7 @@
+ru\guard\fines\Fine.class
+ru\guard\fines\FineMenu.class
+ru\guard\fines\FineStatus.class
+ru\guard\fines\GuardFinesPlugin.class
+ru\guard\fines\FineRepository.class
+ru\guard\fines\Text.class
+ru\guard\fines\FineCommand.class

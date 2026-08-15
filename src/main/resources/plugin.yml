@@ -1,0 +1,20 @@
+name: GuardFines
+version: '${project.version}'
+main: ru.guard.fines.GuardFinesPlugin
+api-version: '1.21.11'
+author: Guard
+description: Система штрафов с GUI, сроками и файловым хранением
+commands:
+  fine:
+    description: Управление штрафами
+    usage: /fine help
+    aliases: [fines, штраф]
+permissions:
+  guardfines.use:
+    description: Выдача штрафов и управление своими штрафами
+    default: op
+  guardfines.admin:
+    description: Управление всеми штрафами и перезагрузка настроек
+    default: op
+    children:
+      guardfines.use: true
